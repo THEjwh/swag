@@ -1,0 +1,88 @@
+                @charset "utf-8";
+                .imge
+                {
+                    border:black 3px solid;
+                    padding:3px;
+                    width:48vw;
+                    margin: 10px;
+                    
+                } 
+                .grid
+                {
+                    display: grid;
+                    grid-template-columns: 1fr 2fr 1fr;
+                }
+    
+                .sol
+                {
+    
+                    border-right: black 5px solid;
+                    margin: 0px;
+                
+                }
+    
+                .rblock
+                {
+                    margin: 0px;
+                    border-right : black 5px solid;
+                }
+    
+                li
+                {
+                    padding: 5px;
+                }
+                
+    
+                body
+                {
+                    font-family: Dovemayo;
+                    font-size: 30px;
+                    margin:0px;
+                    
+                }
+                h1
+                {
+                    text-align: center;
+                    font-size: 5vw;
+                    border-bottom:black 10px solid;
+                    padding: 10px;
+                    margin: 0px;
+                    color:dodgerblue;
+                }
+    
+                a
+                {
+                    color:cornflowerblue;
+                    text-decoration: none;
+                }
+              
+                h2
+                {
+    
+                    padding: 10px;
+                    margin: 0px;
+                }
+    
+                @media(max-width:790px)
+                {
+                    .grid
+                    {
+                        display:block;
+                    }
+                    .sol
+                    {
+                        border-right: none;
+                        border-bottom: 5px black solid;
+                    }
+                    .rblock
+                    {
+                        border-right: 0px;
+                    }
+                    .imge
+                    {
+                        width:93vw;
+                        margin-bottom: 0px;
+                    }
+        
+                }
+    
